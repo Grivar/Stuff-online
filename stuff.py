@@ -17,6 +17,8 @@ class Robot:
             return f"{self.name} moved {mov} units.\
             Battery level is now {value.battery_level}%"
 
+# Centuries of knowledge to be slaughtered just to earn the iron price...
+
         @classmethod
         def robot_charge(value):
             battery_level += value
